@@ -46,4 +46,5 @@ public class CalculatorServicesImpl implements ICalculatorServices {
         double totalNum = (double) num1 / num2;
         return "<h1>" + "%s / %s = %s".formatted(num1, num2, String.format("%.3f", totalNum)) + "</h1>";
     }
+
 }
