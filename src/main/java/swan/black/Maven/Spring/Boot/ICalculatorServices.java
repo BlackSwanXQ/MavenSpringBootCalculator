@@ -10,5 +10,6 @@ public interface ICalculatorServices {
     String multiply(Integer num1, Integer num2);
 
     String divide(Double num1, Double num2);
+
 }
 
